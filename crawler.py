@@ -50,6 +50,6 @@ def keyboardInterruptHandler(signal, frame):
 
 signal.signal(signal.SIGINT, keyboardInterruptHandler)
 
-print("main")
+print("Starting crawler")
 main()
 
