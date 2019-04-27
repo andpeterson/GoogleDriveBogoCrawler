@@ -26,7 +26,6 @@ def main():
             file.write(URL + "\n")
             file.close()
             print(str(status) + ": " + string)
-        #time.sleep(0.001)
 
 
 def randomString(len):
